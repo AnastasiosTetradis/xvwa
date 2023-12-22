@@ -63,7 +63,7 @@
 
             if($itemname!='' && $itemdesc!='' && $categ!='' && $price!='' && basename( $_FILES['image']['name'])!=''){
 
-              include('../../config.php');
+              include_once('../../config.php');
 
               if(!$conn1){
                 echo "Error in connecting to database";
