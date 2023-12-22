@@ -17,8 +17,7 @@
       </div>
 
       <div class="well">
-        <table width="100%" style="border-collapse:collapse; table-layout:fixed;"> 
-          <th>
+        <table width="100%" style="border-collapse:collapse; table-layout:fixed;"><th>
             Coffee List
           </th>
           <tr>
@@ -63,7 +62,7 @@
 
             if($itemname!='' && $itemdesc!='' && $categ!='' && $price!='' && basename( $_FILES['image']['name'])!=''){
 
-              include_once('../../config.php');
+              include_once '../../config.php';
 
               if(!$conn1){
                 echo "Error in connecting to database";
