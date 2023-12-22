@@ -21,7 +21,8 @@
           <th>
             Coffee List
           </th>
-          <tr><td>
+          <tr>
+          <td>
           <div class="col-lg-12"> 
             <p><h4>Add New Item to the Coffee List</h4><br>
               <form method='post' action='' enctype="multipart/form-data">
@@ -43,9 +44,9 @@
              </form>
            </p>
          </div>
+        </tr>
+        <td>
         </table>
-       </td>
-       <td>
         <div class="col-lg-12"> 
           <p><h4></h4><br>
 
